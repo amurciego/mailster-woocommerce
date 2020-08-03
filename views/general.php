@@ -1,5 +1,4 @@
 <?php
-
 $templatefiles = mailster( 'templates' )->get_files( mailster_option( 'default_template' ) );
 
 if ( isset( $templatefiles['index.html'] ) ) {
